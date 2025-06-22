@@ -34,8 +34,20 @@ By combining the reasoning power of large language models (LLMs) such as DeepSee
 
 ### 2. Installation
 
+To build and run Synapse:
+
 ```bash
-git install https://github.com/synapse.git
+# Build the binary
+go build -o synapse ./cmd/cli/main.go
+
+# Run the CLI
+./synapse
+```
+
+Or directly run without building:
+
+```bash
+go run ./cmd/cli/main.go
 ```
 
 ### 3. Configuration
@@ -58,23 +70,6 @@ active_provider: "deepseek"
 now you can run Synapse in your terminal.
 ---
 
-## 🛠️ other method to Build & Run
-
-To build and run Synapse:
-
-```bash
-# Build the binary
-go build -o synapse ./cmd/cli/main.go
-
-# Run the CLI
-./synapse
-```
-
-Or directly run without building:
-
-```bash
-go run ./cmd/cli/main.go
-```
 
 ---
 
