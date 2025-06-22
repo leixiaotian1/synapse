@@ -1,18 +1,12 @@
-
-```markdown
 # Synapse 🧠 - Your AI Coding Familiar
+[![Go Version](https://img.shields.io/github/go-mod/go-version/github.com/synapse?style=for-the-badge)](https://golang.org/)
 
-[![Go Version](https://img.shields.io/github/go-mod/go-version/your-username/deepseek-engineer-go?style=for-the-badge)](https://golang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 
 **Synapse** is a highly extensible command-line AI coding assistant built in Go. It's more than just a code generator — it's an "AI coding familiar" that understands your intent, securely interacts with the local file system, and collaborates with you like a real pair-programming partner.
 
 By combining the reasoning power of large language models (LLMs) such as DeepSeek and OpenAI GPT with local tool execution, Synapse seamlessly transforms your ideas into high-quality code.
-
-https://github.com/your-username/deepseek-engineer-go/assets/your-user-id/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-
-*(You can place a short GIF here to demonstrate Synapse in action)*
 
 ---
 
@@ -93,4 +87,3 @@ Contributions are always welcome! Whether you're fixing bugs, improving performa
 ## 📄 License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-```
