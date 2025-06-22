@@ -37,6 +37,9 @@ By combining the reasoning power of large language models (LLMs) such as DeepSee
 To build and run Synapse:
 
 ```bash
+
+git clone https://github.com/synapse
+
 # Build the binary
 go build -o synapse ./cmd/cli/main.go
 
